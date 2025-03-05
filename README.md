@@ -62,3 +62,39 @@ Provided administrative support, including data entry, document management, and 
 
 - **Data Visualisation**  
   Proficient in creating clear, interactive dashboards and reports in Power BI, helping stakeholders understand trends and patterns in the data.
+
+
+
+# UK Retail Sales Forecasting & Stock Replenishment  
+
+## 📌 Project Overview  
+This project analyses UK retail sales trends and predicts future stock replenishment needs using time-series forecasting.  
+The dataset is sourced from the **UK Office for National Statistics (ONS)** and **Kaggle Retail Sales Data**.  
+
+## 📊 Objectives  
+- Forecast future **retail sales trends** for better stock planning.  
+- Reduce **overstocking & stockouts** through data-driven decision-making.  
+- Provide insights using **machine learning & visualisations**.  
+
+## 🛠️ Tech Stack  
+- **Programming:** Python (Pandas, NumPy, Scikit-Learn)  
+- **Machine Learning:** Facebook Prophet  
+- **Visualisation:** Matplotlib, Seaborn, Power BI  
+
+## 📂 Project Structure  
+- **`data/`** → Raw & processed datasets.  
+- **`notebooks/`** → Jupyter notebooks for analysis & modelling.  
+- **`src/`** → Python scripts for automation (ETL, modelling).  
+- **`dashboards/`** → Power BI/Tableau visualisation files.  
+- **`reports/`** → Documentation & business impact analysis.  
+
+## 📈 Results  
+- Prophet model predicts a **5% increase in Q2 sales**.
+- Forecasting helps **optimise stock replenishment strategies**.
+- Power BI dashboards provide **interactive data insights**.
+
+🚀 **Next Steps:**  
+- Fine-tune forecasting models.  
+- Improve feature engineering.  
+- Deploy findings in a real-world business setting.
+
