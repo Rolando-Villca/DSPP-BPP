@@ -62,3 +62,31 @@ Provided administrative support, including data entry, document management, and 
 
 - **Data Visualisation**  
   Proficient in creating clear, interactive dashboards and reports in Power BI, helping stakeholders understand trends and patterns in the data.
+
+  uk-retail-forecasting/
+│── data/               # Raw & processed datasets
+│   ├── raw/            # Unprocessed CSVs or JSONs
+│   ├── processed/      # Cleaned & transformed data
+│
+│── notebooks/          # Jupyter notebooks for analysis
+│   ├── 01_EDA.ipynb    # Exploratory Data Analysis
+│   ├── 02_Feature_Engineering.ipynb  # Data Processing
+│   ├── 03_Model_Training.ipynb       # ML/Forecasting
+│   ├── 04_Results_Visualisation.ipynb # Dashboarding
+│
+│── src/                # Python scripts for automation
+│   ├── data_loader.py  # Script to load & clean data
+│   ├── feature_engineering.py # Create new features
+│   ├── model_training.py # Train ML models
+│   ├── forecasting.py  # Run forecasts & predictions
+│
+│── dashboards/         # Power BI/Tableau dashboards
+│
+│── reports/            # Final documentation & markdown reports
+│   ├── executive_summary.md
+│   ├── impact_evaluation.md
+│
+│── requirements.txt    # List of dependencies (pandas, scikit-learn, etc.)
+│── README.md           # Project Overview
+│── .gitignore          # Files to ignore in GitHub
+
