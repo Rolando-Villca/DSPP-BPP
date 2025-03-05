@@ -1,5 +1,23 @@
-title: Rolando Villca Choque
-logo: /assets/IMG_2551.JPG
-description: Portfolio about me 
+title: "Rolando Villca Choque"
+logo: "/assets/profile.jpg"
+description: "Data Science Portfolio - Showcasing Projects & Insights"
+theme: jekyll-theme-cayman
 show_downloads: true
-theme: academicpages
+
+# Add navigation links
+navbar-links:
+  About Me: "about.md"
+  Projects: "projects.md"
+  Contact: "contact.md"
+
+# Social Media (Optional)
+social_links:
+  github: "https://github.com/yourgithub"
+  linkedin: "https://www.linkedin.com/in/yourprofile"
+  email: "mailto:your.email@example.com"
+
+# SEO Optimization
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
